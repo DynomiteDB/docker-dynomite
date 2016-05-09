@@ -69,3 +69,4 @@ Create the `dynomite` image.
 ```bash
 docker build -t dynomitedb/dynomite .
 ```
+
