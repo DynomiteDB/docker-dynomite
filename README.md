@@ -33,9 +33,9 @@ You can provide Dynomite with a custom configuration file as show below. In this
 ```bash
 mkdir -p ~/repos && cd $_
 
-git clone https://github.com/DynomiteDB/dynomite-yaml.git
+git clone https://github.com/DynomiteDB/docker-custom-conf-files.git
 
-cd dynomite-yaml
+cd docker-custom-conf-files
 
 docker run --name dynomite --net=host -d -p 8102:8102 -p 8101:8101 -v ${PWD}/dynomite.yaml:/etc/dynomitedb/dynomite.yaml dynomitedb/dynomite
 ```
